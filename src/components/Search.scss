@@ -1,0 +1,26 @@
+@use "./../base/colors.scss" as *;
+
+.search-con {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    background-color: $dark-grey;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    margin-left: 10px;
+
+    input {
+        width: 90%;
+        background: transparent;
+        outline: none;
+        border: none;
+        color: $white-color;
+    }
+
+    input::placeholder {
+        color: $grey-color;
+    }
+
+}
